@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validando Pais</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black;
+        }
+
+        div#caixa {
+            background-color: white;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Paises</h1>
-    <input type="number" name="txtp" id="txtp">
-    <input type="button" value="Verificar" onclick="validar()">
-    <div id="res"></div>
+    <div id="caixa">
+        <h1>Paises</h1>
+        <input type="text" name="txtp" id="txtp">
+        <input type="button" value="Verificar" onclick="validar()">
+        <div id="res"></div>
+    </div>
     <script>
         function validar() {
             var txtp = window.document.querySelector('input#txtp')
             var res = window.document.querySelector('div#res')
             var val = txtp.value
-            window.alert
+            if (val  == 'Brasil') {
+                res.innerHTML += '<p>Voçê é <strong>BRASILEIRO</strong></p>'
+            } else {
+                res.innerHTML += '<p>Voçê é <strong>ESTRANGEIRO</strong><p>'
+            }
             
         }
     </script>
