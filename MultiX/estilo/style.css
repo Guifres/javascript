@@ -22,6 +22,8 @@ header {
 nav {
     background-color: black;
     color: white;
+    width: 1000px;
+
     
 }
 
@@ -58,12 +60,13 @@ div#login > h1 {
     color: black;
     padding-top: 140px;
     align-items: center;
+    font-size: 3em;
 }
 
 div#login > input {
     margin: 5px;
     height: 20px;
-    font-weight: bolder;
+    width: 250px;
 }
 
 div#login > p {
@@ -72,3 +75,7 @@ div#login > p {
     font-weight: bold;
 }
 
+
+div#login > input#entrar {
+    width: 60px;
+} 
