@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%vw;
+    height: 100px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav > a:hover {
+    color: aqua;
+}
+
+main {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
