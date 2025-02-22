@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    background-attachment: fixed;
 }
 
 header {
