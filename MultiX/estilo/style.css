@@ -47,7 +47,7 @@ main {
 
 }
 
-div#login {
+#login {
     position: absolute;
     top: 50% ;
     left: 50%;
@@ -59,27 +59,27 @@ div#login {
     box-shadow: 2px 1px rgb(216, 157, 157);
 }
 
-div#login > h1 {
+#login > h1 {
     color: black;
     padding-top: 140px;
     align-items: center;
     font-size: 3em;
 }
 
-div#login > input {
+#login > input {
     margin: 5px;
     height: 20px;
     width: 250px;
 }
 
-div#login > p {
+#login > p {
     color: black;
     font-size: 1em;
     font-weight: bold;
 }
 
 
-div#login > input#entrar {
+#login > input#entrar {
     width: 60px;
 } 
 
