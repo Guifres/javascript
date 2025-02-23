@@ -11,11 +11,14 @@
         <h1>MultiX</h1>
         <p>A sua mudança financeira esta aqui!</p>
     </header>
-    <nav>
+    <button class="abrir-btn" onclick="abrirMenu()">☰</button>
+    <nav id="menu" class="menu">
+        <span class="fechar-btn" onclick="fecharMenu()">X</span>
         <a href="index.html">HOME</a>
         <a href="paglogin.html">LOGIN</a>
-        <a href="#">LINKS</a>
-        <a href="#">PAGAMENTOS</a>
+        <a href="#">INDICAÇÕES</a>
+        <a href="#">FINANCEIRO</a>
+        
     </nav>
     <main>
         <div id="login">
@@ -25,5 +28,13 @@
              <input id="entrar" type="button" value="ENTRAR">
         </div>
     </main>
+    <script>
+        function abrirMenu() {
+            document.getElementById("menu").style.width = "250px";
+        }
+        function fecharMenu() { 
+            document.getElementById("menu").style.width = "0px";
+        }
+    </script>
 </body>
 </html>
