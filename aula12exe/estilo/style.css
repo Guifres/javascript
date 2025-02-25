@@ -33,3 +33,8 @@ footer {
     font-style: italic;
     padding: 2px;
 }
+
+div {
+    text-align: center;
+    padding: 5px;
+}
