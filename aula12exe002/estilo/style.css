@@ -25,6 +25,7 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgba(29, 27, 27, 0.753);
 
+
 }
 
 footer {
@@ -35,6 +36,7 @@ footer {
 }
 
 div {
-    text-align: center;
     padding: 5px;
 }
+
+
