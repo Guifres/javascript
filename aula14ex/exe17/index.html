@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
     <header>
@@ -12,14 +12,16 @@
     </header>
     <section>
         <div id="calcular">
+            <p>
             <label for="num"></label>
             Numero:<input type="number" name="num" id="num">
-            <button type="button">Gerar Tabuada</button>
+            <button type="button" onclick="gerartabuada()">Gerar Tabuada</button>
+            </p>
         </div>
-        <div id="res">
-
+        <div>
+            <select name="tabuada" id="seltab" size="10"></select>
         </div>
     </section>
-    <script src="stilo/script.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
