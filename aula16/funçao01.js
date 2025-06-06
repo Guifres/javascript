@@ -5,6 +5,6 @@ function parimpar(n) {
         return 'impar'
     }
 }
-
-let res = parimpar(1)
-console.log(res)
+var num = 23
+let res = parimpar(num)
+console.log(`O numero é ${res}`)
